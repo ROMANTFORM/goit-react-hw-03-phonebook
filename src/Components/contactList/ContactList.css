@@ -1,0 +1,11 @@
+.Contact-container__list {
+  padding: 0;
+}
+.Contact-container__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.Contact-container__item:nth-child(odd) {
+  background-color: rgb(226, 223, 223);
+}
